@@ -1,0 +1,716 @@
+/**General pages css*/
+* {
+  box-sizing: border-box;
+  font-family: Karla, Arial, sans-serif;
+  color: #092940;
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: "MemphisRiver";
+  src: url(fonts/MemphisRiver.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roblox";
+  src: url(fonts/Roblox-Font-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roblox";
+  src: url(fonts/Roblox-Font-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+
+}
+
+main {
+  margin-top: 30px;
+  position: relative;
+  min-height: 67vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color:#092940;
+  text-align: center;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h5 {
+  color: #092940;
+}
+
+h6 {
+  font-size: 65px;
+  text-align: center;
+  font-family: "Roblox", sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+p {
+  text-align: justify;
+  font-size: medium;
+
+}
+
+/** Navigation bar*/
+ul {
+  height: 50px;
+
+}
+
+.nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  margin-right: 2em;
+  margin-top: .25em;
+  text-decoration: none;
+  font-size: 1em;
+  color: #092940;
+  font-weight: bolder;
+  font-family: Bahnschrift SemiBold, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav a:hover {
+  background-color: white;
+  color: #092940;
+}
+
+.main-nav {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: lighter;
+  height: 100px;
+
+}
+
+.list-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.content {
+  height: 300px;
+}
+
+/**Header Css*/
+.main-header {
+  height: 60px;
+  width: 100%;
+  background-color: #092940;
+}
+.main-header a{
+  color:white;
+}
+.connectionLabel {
+  padding: 1em;
+  display: inline;
+  font-weight: bolder;
+  font-size: 1em;
+  color: #5659f2;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+.connectionLabel:hover {
+  background-color: rgba(209, 209, 209, 0.3);
+}
+
+.container {
+  padding: 0 1.5em;
+  margin: 0 auto;
+  max-width: 900px;
+  font-size: larger;
+}
+
+
+.logo {
+  width: 100px;
+}
+
+
+.logo-container {
+  width: 18%;
+}
+
+/** Footer CSS*/
+footer{
+  background-color: #092940;
+  width: 100%;
+  height: 60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerElement a, p{
+  padding: 1em;
+  display: inline;
+  font-weight: bolder;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #092940;
+  font-family: Bahnschrift SemiBold, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 50px;
+}
+
+
+/**Homepage*/
+.upcoming-container {
+  display: flex;
+
+}
+
+.events {
+  height: 200px;
+  margin: 1em;
+  padding: .5em;
+  width: 250px;
+  background-color: rgba(221, 142, 204, 0.76);
+  border-width: 10em;
+  border-color: black;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.349), 0 0.5rem 1.125rem rgba(122, 94, 94, 0.05);
+}
+
+
+.upcoming-connections {
+  padding-left: 5px;
+  text-align: end;
+  color: white;
+}
+
+.upcoming-connections:hover {
+  color: blue;
+}
+
+
+
+/**New connection Page**/
+#newConnectionForm {
+  height: 750px;
+  background-color: #bb78cc;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 1%;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.fixed-width {
+  width: 300px;
+  height: 100px;
+}
+
+.form-row {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-row input[type='text'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 50px;
+  padding: 2px;
+  font-size: 14px;
+}
+
+.form-row input[type='date'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 50px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row input[type='time'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 50px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row input[type='password'] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 50px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+
+select {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 50%;
+  margin-left: 50px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+
+
+
+.form-btn {
+  padding-right: 6em;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+
+.buttons {
+  height: 40px;
+  width: 90px;
+  border: unset;
+  border-radius: 8%;
+  background-color: rgb(36, 152, 206);
+}
+
+.label-button {
+  color: rgb(216, 245, 247);
+}
+
+.buttons:hover {
+  background-color: rgb(8, 57, 80);
+}
+
+
+
+/**Connections Page**/
+.categories-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+
+}
+
+.category {
+  margin: 80px;
+  border: solid;
+  height: auto;
+  width: 500px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+.category-image {
+  width: 100%;
+  height: 170px;
+
+}
+
+
+/* Styling the links of
+the events section */
+
+/* Styling the lists of the event section */
+.category ul li {
+  list-style: none;
+  background: #fff;
+  box-sizing: border-box;
+  height: 50px;
+  margin: 15px 0;
+  width: 100%;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.349), 0 0.5rem 1.125rem rgba(122, 94, 94, 0.05);
+}
+
+/* Styling the time class of events section */
+.category ul li .time {
+  position: relative;
+  padding: 20px;
+  background: #262626;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  transition: .5s;
+}
+
+/* Styling the hover effect
+  of events section */
+.category ul li:hover .time {
+  background: #e91e63;
+}
+
+/* Styling the header of time
+  class of events section */
+.category ul li .time h2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+
+/* Styling the details
+class of events section */
+.category ul li .details {
+  padding-left: 2em;
+  background: #fff;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+
+/* Styling the lists of details
+class of events section */
+.category ul li .details p {
+  font-size: 13px;
+}
+
+/* Styling the links of details
+class of events section */
+.category ul li .details a {
+
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1.5px solid #262626;
+  margin-right: 10px;
+  font-size: 12px;
+  transition: .5s;
+  float: right;
+}
+
+/* Styling the details class's hover effect */
+.category ul li .details a:hover {
+  background: #e91e63;
+  color: #fff;
+  border-color: #e91e63;
+}
+
+
+
+/**Connection Page**/
+.event-image-container {
+  width: 400px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.event-image {
+  width: 400px;
+  height: 350px;
+  border-radius: 50%;
+
+}
+
+.event-details {
+  background-color: rgba(85, 107, 47, 0.158);
+  padding: 2em;
+  margin: 30px;
+  width: 500px;
+}
+
+.event-buttons {
+  margin-left: 500px;
+  margin-right: 300px;
+}
+
+
+.event-btn-update {
+  width: 70px;
+  height: 30px;
+  margin: 50px;
+  background-color: rgba(0, 128, 0, 0.89);
+  border: none;
+  border-radius: 5%;
+  color: #fff;
+}
+
+.event-btn-update:hover {
+  background-color: rgba(0, 128, 0, 0.63);
+}
+
+.event-btn-delete {
+  width: 70px;
+  height: 30px;
+  margin: 30px;
+  background-color: rgba(255, 0, 0, 0.849);
+  border: none;
+  border-radius: 5%;
+  color: #fff;
+}
+
+.event-btn-delete:hover {
+  background-color: rgba(255, 0, 0, 0.582);
+}
+
+.event-btn-yes {
+  width: 70px;
+  height: 30px;
+  margin: 50px;
+  background-color: rgba(0, 128, 0, 0.89);
+  border: none;
+  border-radius: 5%;
+  color: #fff;
+}
+
+.event-btn-yes:hover {
+  background-color: rgba(0, 128, 0, 0.63);
+}
+
+.event-btn-no {
+  width: 70px;
+  height: 30px;
+  margin: 50px;
+  background-color: rgba(255, 0, 0, 0.849);
+  border: none;
+  border-radius: 5%;
+  color: #fff;
+}
+
+.event-btn-no:hover {
+  background-color: rgba(255, 0, 0, 0.582);
+}
+
+.event-btn-maybe {
+  width: 70px;
+  height: 30px;
+  margin: 50px;
+  background-color: rgb(2, 2, 245);
+  border: none;
+  border-radius: 5%;
+  color: #fff;
+}
+
+.event-btn-maybe:hover {
+  background-color: rgba(2, 2, 245, 0.521);
+}
+
+/**contact form **/
+.contact-form {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.349), 0 0.5rem 1.125rem rgba(122, 94, 94, 0.05);
+  padding: 100px;
+}
+
+
+/** Login Page**/
+.login-form {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.349), 0 0.5rem 1.125rem rgba(122, 94, 94, 0.05);
+  padding: 100px;
+  margin: 50px;
+}
+
+
+.success {
+  background: rgba(108, 192, 112, 0.7);
+  color: #fff;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.error {
+  background: rgba(255, 102, 51, 0.7);
+  color: #fff;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 25px 50px;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+  background-color: #009879;
+  text-align: center;
+}
+
+table th,
+td {
+  padding: 12px 15px;
+  color: #e4e2e2;
+  font-weight: bold;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+
+table tbody tr.active-row {
+
+  color: #009879;
+}
+
+
+.profile-connection-links {
+  text-align: center;
+  color: blue;
+}
+
+.profile-connection-links:hover {
+  text-decoration: underline;
+}
+
+.profile-story-actions {
+  padding: 20px;
+}
+
+.profile-rsvp{
+  text-align: center;
+}
+
+.codeInspector-list{
+  padding: 3rem;
+  border: 1px dotted;
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+.codeInspector-line{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.349), 0 0.5rem 1.125rem rgba(122, 94, 94, 0.05);
+}
+
+.codeInspector-line:hover{
+
+}
+
+.codeInspector-name{
+  font-size: 1rem;
+  color: #111;
+}
+
+.codeInspector-username{
+  font-size: 0.8rem;
+  color: rgba(162, 162, 162);
+}
+
+
+.codeInspector-p{
+  font-size: 0.8rem;
+  color: #111;
+  font-weight: 500;
+  background-color:whitesmoke;
+}
+
+.codeInspector-person{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.codeInspector-person-profile img{
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 70%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.codeInspector-person-profile .codeInspector-details{
+  margin-left: 1.5rem;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+
+.codeInspector-status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeInspector-status span{
+  display:inline-flex;
+  margin-bottom: 20px;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background-color: limegreen;
+}
+
+.codeInspector-status p{
+  margin-left: 0.5rem;
+}
+
+.codeInspector-status .inactive{
+  background-color: red;
+}
+
+
+.tab-content{
+  min-height: 400px;
+}

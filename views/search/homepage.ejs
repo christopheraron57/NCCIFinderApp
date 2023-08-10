@@ -1,0 +1,258 @@
+<%- include('../partials/header.ejs')%>
+  <main>
+    <h4>NC Code Inspector Lookup</h4>
+    <br>
+    <ul class="nav nav-tabs justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab1">General</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab2">Search by Name</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="tab1" class="tab-pane fade show active">
+        <form id="GeneralSearch" name="searchForm">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-sm-5 my-2 mx-2">
+                <div class="form-group py-4">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <label class="mx-4" for="county">County:</label>
+                    </div>
+                    <div class="col-sm-8">
+                      <select class="form-control" id="county" name="county">
+                        <option value="">Select County</option>
+                        <option value="Mecklenburg">Mecklenburg</option>
+                        <option value="Gaston">Gaston</option>
+                        <option value="Davidson">Davidson</option>
+                        <option value="Brunswick">Brunswick</option>
+                        <option value="Catawba">Catawba</option>
+                        <option value="Durham">Durham</option>
+                        <!-- Options here -->
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group py-4">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <label class="mx-4" for="trade">Trade:</label>
+                    </div>
+                    <div class="col-sm-8">
+                      <select class="form-control" id="trade" name="trade">
+                        <option value=""></option>
+                        <option value="Building">Building</option>
+                        <option value="Electrical">Electrical</option>
+                        <option value="Fire">Fire</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Plumbing">Plumbing</option>
+                        <option value="Residential Changeout">Residential Changeout</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-5 my-2 mx-6">
+                <div class="form-group py-4">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <label class="mx-4" for="type">Type:</label>
+                    </div>
+                    <div class="col-sm-8">
+                      <select class="form-control" id="type" name="type">
+                        <option value=""></option>
+                        <option value="Limited">Limited</option>
+                        <option value="Probationary">Probationary</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Temporary">Temporary</option>
+                        <!-- Options here -->
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group py-4">
+                  <div class="row">
+                    <div class="col-sm-2">
+                      <label class="mx-4" for="level">Level:</label>
+                    </div>
+                    <div class="col-sm-8">
+                      <select class="form-control" id="level" name="level">
+                        <option value=""></option>
+                        <option value="1">Level I</option>
+                        <option value="2">Level II</option>
+                        <option value="3">Level III</option>
+                        <!-- Options here -->
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--                   <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <div class="form-group py-4 my-4">
+                        <label for="pay">Estimated Pay Per Hour<p><b></b><output id="value"></output></b></p></label>
+                        <input type="range" class="form-control-range" id="pay" name="pay" min="0" max="100" step="1">
+                      </div>
+                    </div>
+                  </div> -->
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <div class="form-group py-4 my-4">
+                  <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
+
+      </div>
+      <div id="tab2" class="tab-pane fade">
+        <form id="SearchByName">
+          <div class="container py-4">
+            <div class="row justify-content-center text-center">
+              <div class="col-md-6 mb-3 mx-2">
+                <input id='codeInspectorName' name='codeInspectorName' type="text" class="form-control form-control-sm"
+                  placeholder="Enter first or last name" required>
+              </div>
+              <div class="col-md-6 mb-3 mx-6">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+
+      </div>
+    </div>
+    <div id="list-codeInspectors" class="codeInspector-list">
+    </div>
+
+
+  </main>
+
+  <%- include('../partials/footer.ejs')%>
+
+    <script>
+      $(document).ready(function () {
+        // Activate the first tab by default
+        $('.nav-tabs .nav-link:first').addClass('active');
+        $('.tab-content .tab-pane:first').addClass('show active');
+
+        // Switch the active tab when a tab link is clicked
+        $('.nav-tabs .nav-link').on('click', function (e) {
+          e.preventDefault();
+          $('.nav-tabs .nav-link').removeClass('active');
+          $(this).addClass('active');
+          var target = $(this).attr('href');
+          $('.tab-content .tab-pane').removeClass('show active');
+          $(target).addClass('show active');
+        });
+
+        const $value = $("#value");
+        const $input = $("#pay");
+        $value.text($input.val());
+        $input.on("input", (event) => {
+          $value.text(event.target.value);
+        });
+
+        $("#SearchByName").submit(function (event) {
+          event.preventDefault(); // Prevent page reload on form submission
+          search("byName"); // Call the search function to perform the AJAX request
+        });
+
+
+        $("#GeneralSearch").submit(function (event) {
+          event.preventDefault(); // Prevent page reload on form submission
+          search("byGeneral"); // Call the search function to perform the AJAX request
+        });
+
+        function search(param) {
+
+          var codeInspectorObject;
+          if (param === "byName") {
+            codeInspectorObject = { codeInspectorName: $("#codeInspectorName").val() };
+          } else {
+            codeInspectorObject = {
+              county: $("#county").val(),
+              trade: $("#trade").val(),
+              type: $("#type").val(),
+              level: $("#level").val()
+            }
+          }
+          $.ajax({
+            url: "/search",
+            method: "POST",
+            data: codeInspectorObject,
+            success: function (data) {
+              var html = "";
+              for (var i = 0; i < data.result.length; i++) {
+                if (data.result[i].Availability_status) {
+                  html += `<div class="codeInspector-line">
+        <div class="codeInspector-person">
+          <div class="codeInspector-person-profile">
+            <img src="/images/profilePic.png" alt="">
+          </div>
+          <div class="codeInspector-details">`;
+                  html += `<h1 class="codeInspector-name">` + data.result[i].First_Name + " " + data.result[i].Last_Name + `</h1>`
+                  html += `<h3 class="codeInspector-username">` + data.result[i].Primary_Email + `</h3>
+          </div>
+
+        </div>
+        <div class="codeInspector-status">
+          <span></span>
+          <p class="codeInspector-p">available</p>
+        </div>
+        <div class="codeInspector-location">`
+                  html += `<p class="codeInspector-p">` + data.result[i].County + `</p>
+        </div>
+        <div class="codeInspector-phone">`
+                  html += `<p class="codeInspector-p">` + data.result[i].Emp_Phone + `</p>
+        </div>
+        <div class="codeInspector-contact">`
+                  html += `<a href="/search/` + data.result[i]._id + `" class="btn btn-outline-primary btn-m" role="button">View</a>
+        </div>
+      </div>`
+                }
+                else {
+                  html += `<div class="codeInspector-line">
+        <div class="codeInspector-person">
+          <div class="codeInspector-person-profile">
+            <img src="/images/profilePic.png" alt="">
+          </div>
+          <div class="codeInspector-details">`;
+                  html += `<h1 class="codeInspector-name">` + data.result[i].First_Name + " " + data.result[i].Last_Name + `</h1>`
+                  html += `<h3 class="codeInspector-username">` + data.result[i].Primary_Email + `</h3>
+          </div>
+
+        </div>
+        <div class="codeInspector-status">
+          <span class="inactive"></span>
+          <p class="codeInspector-p">Unavailable</p>
+        </div>
+        <div class="codeInspector-location">`
+                  html += `<p class="codeInspector-p">` + data.result[i].County + `</p>
+        </div>
+        <div class="codeInspector-phone">`
+                  html += `<p class="codeInspector-p">` + data.result[i].Emp_Phone + `</p>
+        </div>
+        <div class="codeInspector-contact">`
+                  html += `<a href="/search/` + data.result[i]._id + `" class="btn btn-outline-primary btn-m" role="button">View</a>
+        </div>
+      </div>`
+
+                }
+              }
+              $('#list-codeInspectors').html(html);
+            }
+          });
+        }
+
+      });
+    </script>

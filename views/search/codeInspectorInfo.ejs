@@ -1,0 +1,37 @@
+<%- include('../partials/header.ejs')%>
+   <style>
+      h2 {
+         font-size: 25px;
+         text-align: center;
+         font-weight: 800;
+      }
+      h3 {
+         font-size: 20px;
+         text-align: center;
+         font-weight: 100;
+      }
+      h4 {
+         font-size: 15px;
+         color: blue;
+         text-align: center;
+      }
+      image {
+         width: 250px;
+      }
+   </style>
+   <main>
+      <img class="image" src="/images/profilePic.png" alt="profile picture" width="200px">
+      <h1><%=codeInspectorPerson.First_Name%> <%=codeInspectorPerson.Last_Name%></h1><br>
+      <h2>Inspection Type:</h2>
+      <h3>Electrical</h3><br>
+
+      <h2>Certifications:</h2>
+      <h3>Electrical License</h3><br>
+
+      <h2>Contact:</h2>
+      <h4>janedoe@gmail.com | 744-364-3388</h4><br>
+
+      <h2>Rate Us!</h2>
+      <center><button>Submit a Review</button></center>
+   </main><!-- main content-->
+<%- include('../partials/footer.ejs')%>

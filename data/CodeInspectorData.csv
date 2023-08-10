@@ -1,0 +1,162 @@
+CEO_ID,First_Name,Last_Name,Primary_Email,Cert_No,Type,Trade,Level,Exp_Date,Employer,Emp_Phone,County,Address,City,State,ZipCode,Additional_contact_email
+11037,Jerry,Green,,14528,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+4937,Kevin,Edwards,,6491,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+13347,Charles,Hitsman,,12509,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+14293,Alex,Gregory,,17157,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+14944,Harry,Pope,,18593,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+15308,Lori,Reece,,18599,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+15368,Kirkham,Young,,19326,Standard,Building,1,6/30/2023,Charlotte,(704) 336-3380,Mecklenburg,600 E. Trade Street,Charlotte,NC,28202,
+28853,Doug,Thornhill,,P-39032,Probationary,Building,1,10/28/2025,Mecklenburg Co.,(980) 314-3434,Mecklenburg,2145 Suttle Avenue,Charlotte,NC,28208,andrew.herring@MecklenburgCountyNC.gov
+5646,Michael,Kale,,14144,Standard,Building,1,6/30/2023,Mecklenburg Co.,(980) 314-3434,Mecklenburg,2145 Suttle Avenue,Charlotte,NC,28208,andrew.herring@MecklenburgCountyNC.gov
+9960,Steven,Miller,,14335,Standard,Building,1,6/30/2023,Mecklenburg Co.,(980) 314-3434,Mecklenburg,2145 Suttle Avenue,Charlotte,NC,28208,andrew.herring@MecklenburgCountyNC.gov
+10665,Jimmy,Craine,scott.craine@gastongov.com,20437,Standard,Plumbing,3,6/30/2023,Gaston Co.,(704) 866-3176,Gaston,P. O. Box 1578128 W Main Avenue,Gastonia,NC,28053,John.roper@gastongov.com
+10665,Jimmy,Craine,scott.craine@gastongov.com,30951,Standard,Building,2,6/30/2023,Gaston Co.,(704) 866-3176,Gaston,P. O. Box 1578128 W Main Avenue,Gastonia,NC,28053,John.roper@gastongov.com
+11591,Jeffrey,Goodman,jeff.goodman@gastongov.com,18319,Standard,Mechanical,2,6/30/2023,Gaston Co.,(704) 866-3176,Gaston,P. O. Box 1578128 W Main Avenue,Gastonia,NC,28053,John.roper@gastongov.com
+11591,Jeffrey,Goodman,jeff.goodman@gastongov.com,20156,Standard,Plumbing,3,6/30/2023,Gaston Co.,(704) 866-3176,Gaston,P. O. Box 1578128 W Main Avenue,Gastonia,NC,28053,John.roper@gastongov.com
+11591,Jeffrey,Goodman,jeff.goodman@gastongov.com,20338,Standard,Building,3,6/30/2023,Gaston Co.,(704) 866-3176,Gaston,P. O. Box 1578128 W Main Avenue,Gastonia,NC,28053,John.roper@gastongov.com
+11591,Jeffrey,Goodman,jeff.goodman@gastongov.com,37086,Standard,Electrical,3,6/30/2023,Gaston Co.,(704) 866-3176,Gaston,P. O. Box 1578128 W Main Avenue,Gastonia,NC,28053,John.roper@gastongov.com
+5300,Rusty,Graham,graham.rusty@yahoo.com,21180,Standard,Fire,3,6/30/2023,Belmont,(704) 825-0502,Gaston,301 Keener Blvd.,Belmont,NC,28012,george.altice@pharryarns.com
+4509,Michael,Baucom,4314mike@gmail.com,L-1906,Limited,Fire,,6/30/2023,Belmont,(704) 825-0502,Gaston,301 Keener Blvd.,Belmont,NC,28012,george.altice@pharryarns.com
+21008,Stephen,Roberts,sroberts@belmontfiredept.com,35824,Standard,Fire,1,6/30/2023,Belmont,(704) 825-0502,Gaston,301 Keener Blvd.,Belmont,NC,28012,george.altice@pharryarns.com
+21008,Stephen,Roberts,sroberts@belmontfiredept.com,P-35847,Probationary,Fire,2,8/18/2024,Belmont,(704) 825-0502,Gaston,301 Keener Blvd.,Belmont,NC,28012,george.altice@pharryarns.com
+25041,Glenn,Payne,glenn.payne@davidsoncountync.gov,P-38632,Probationary,Building,2,9/12/2025,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+26950,Dakota,Brown,dhbrown93@gmail.com,36275,Standard,Electrical,1,6/30/2023,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+26950,Dakota,Brown,dhbrown93@gmail.com,37198,Standard,Plumbing,1,6/30/2023,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+26950,Dakota,Brown,dhbrown93@gmail.com,39108,Standard,Building,1,6/30/2023,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+26950,Dakota,Brown,dhbrown93@gmail.com,39908,Standard,Mechanical,1,6/30/2023,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+26950,Dakota,Brown,dhbrown93@gmail.com,P-36286,Probationary,Electrical,2,11/1/2024,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+26950,Dakota,Brown,dhbrown93@gmail.com,P-38631,Probationary,Plumbing,2,9/12/2025,Davidson Co.,(336) 242-2230,Davidson,P. O. Box 1067912 Greensboro Street,Lexington,NC,27293,
+28663,Brandon,Gunter,brandon.gunter@davidsoncountync.gov,P-38545,Probationary,Fire,1,8/31/2025,Davidson Co. Fire Marshal,(336) 242-2270,Davidson,935 N. Main Street,Lexington,NC,27292,larry.james@davidsoncountync.gov
+14910,Christopher,Shonk,chris.shonk@davidsoncountync.gov,P-39995,Probationary,Building,3,3/9/2026,Davidson Co. Fire Marshal,(336) 242-2270,Davidson,935 N. Main Street,Lexington,NC,27292,larry.james@davidsoncountync.gov
+8171,Eric,Barker,EWBarker@LexingtonNC.gov,29816,Standard,Fire,3,6/30/2023,Davidson Co. Fire Marshal,(336) 242-2270,Davidson,935 N. Main Street,Lexington,NC,27292,larry.james@davidsoncountync.gov
+14910,Christopher,Shonk,chris.shonk@davidsoncountync.gov,P-34270,Probationary,Mechanical,2,11/13/2023,Davidson Co. Fire Marshal,(336) 242-2270,Davidson,935 N. Main Street,Lexington,NC,27292,larry.james@davidsoncountync.gov
+14910,Christopher,Shonk,chris.shonk@davidsoncountync.gov,P-34093,Probationary,Electrical,1,10/8/2023,Davidson Co. Fire Marshal,(336) 242-2270,Davidson,935 N. Main Street,Lexington,NC,27292,larry.james@davidsoncountync.gov
+5288,George,Sudderth,csudderth@villagebhi.org,P-38574,Probationary,Fire,2,9/1/2025,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+23832,Andrew ,Kennedy,akennedy3@ec.rr.com,38620,Standard,Plumbing,2,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+5288,George,Sudderth,csudderth@villagebhi.org,20967,Standard,Fire,1,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+12028,Stephen,Boyett,sboyett@villagebhi.org,18055,Standard,Mechanical,2,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+12028,Stephen,Boyett,sboyett@villagebhi.org,16418,Standard,Electrical,1,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+12028,Stephen,Boyett,sboyett@villagebhi.org,15870,Standard,Plumbing,1,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+12028,Stephen,Boyett,sboyett@villagebhi.org,15786,Standard,Fire,1,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+12028,Stephen,Boyett,sboyett@villagebhi.org,15718,Standard,Building,1,6/30/2023,Bald Head Island,(910) 457-6255,Brunswick,P. O. Box 3009106 Lighthouse Wynd,Bald Head Island,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,P-35282,Probationary,Plumbing,2,5/17/2024,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,P-35391,Probationary,Mechanical,2,6/1/2024,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,P-35769,Probationary,Electrical,2,8/9/2024,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,P-37308,Probationary,Fire,2,3/9/2025,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,P-39304,Probationary,Building,3,12/5/2025,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+17156,Ruth,Bek,rbek@cityofbsl.org,21468,Standard,Mechanical,2,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+17156,Ruth,Bek,rbek@cityofbsl.org,21495,Standard,Building,2,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+17156,Ruth,Bek,rbek@cityofbsl.org,21866,Standard,Electrical,2,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,39273,Standard,Building,2,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,37269,Standard,Fire,1,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,35757,Standard,Electrical,1,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,35359,Standard,Mechanical,1,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23984,Jerry,Turbeville,sturbeville@cityofbsl.org,35133,Standard,Plumbing,1,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+23765,William,Mammay,dmammay@cityofbsl.org,31067,Standard,Fire,3,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+17156,Ruth,Bek,rbek@cityofbsl.org,22202,Standard,Plumbing,2,6/30/2023,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+28560,Michael,Phillippe,mphillippe@cityofbsl.org,P-38709,Probationary,Building,1,9/20/2025,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+28560,Michael,Phillippe,mphillippe@cityofbsl.org,P-38710,Probationary,Fire,1,9/20/2025,Boiling Spring Lakes,(910) 363-0049,Brunswick,9 E Boiling Spring Road,Southport,NC,28461,
+27273,Kevin,Rape,kevin.rape@Brunswickcountync.gov,P-35559,Probationary,Building,1,6/30/2024,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27273,Kevin,Rape,kevin.rape@Brunswickcountync.gov,P-38746,Probationary,Mechanical,2,9/22/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27273,Kevin,Rape,kevin.rape@Brunswickcountync.gov,P-38747,Probationary,Plumbing,2,9/22/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27531,Justin,Hatcher,justin.hatcher@brunswickcountync.gov,37649,Standard,Fire,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27531,Justin,Hatcher,justin.hatcher@brunswickcountync.gov,P-37697,Probationary,Fire,2,4/29/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27772,James,Paggioli,james.paggioli@brunswickcountync.gov,39368,Standard,Plumbing,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27772,James,Paggioli,james.paggioli@brunswickcountync.gov,P-36244,Probationary,Building,2,10/25/2024,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27777,Francis,O'Connor,captfdo@gmail.com,P-36934,Probationary,Fire,2,1/14/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27960,Hunter,Long,hunterblong17@gmail.com,38601,Standard,Plumbing,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27960,Hunter,Long,hunterblong17@gmail.com,40001,Standard,Mechanical,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27960,Hunter,Long,hunterblong17@gmail.com,P-36916,Probationary,Building,1,1/11/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27960,Hunter,Long,hunterblong17@gmail.com,P-38035,Probationary,Electrical,1,6/9/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27960,Hunter,Long,hunterblong17@gmail.com,P-38869,Probationary,Plumbing,2,10/6/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+27960,Hunter,Long,hunterblong17@gmail.com,P-40037,Probationary,Mechanical,2,3/13/2026,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28110,James,Maguire,jimmaguire7@comcast.net,39732,Standard,Plumbing,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28110,James,Maguire,jimmaguire7@comcast.net,P-37230,Probationary,Building,1,2/28/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28110,James,Maguire,jimmaguire7@comcast.net,P-37231,Probationary,Mechanical,1,2/28/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28229,James,Britt,mike.britt@brunswickcountync.gov,P-37484,Probationary,Electrical,1,3/29/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28229,James,Britt,mike.britt@brunswickcountync.gov,P-37485,Probationary,Mechanical,1,3/29/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28229,James,Britt,mike.britt@brunswickcountync.gov,P-37486,Probationary,Plumbing,1,3/29/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28262,George ,Orsell,george.orsell@brunswickcountync.gov,P-37547,Probationary,Building,1,4/8/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28262,George ,Orsell,george.orsell@brunswickcountync.gov,P-37548,Probationary,Electrical,1,4/8/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28262,George ,Orsell,george.orsell@brunswickcountync.gov,P-37549,Probationary,Mechanical,1,4/8/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28262,George ,Orsell,george.orsell@brunswickcountync.gov,P-37550,Probationary,Plumbing,1,4/8/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28300,Steffan,Taube,steffan.taube@brunswickcountync.gov,39401,Standard,Plumbing,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28300,Steffan,Taube,steffan.taube@brunswickcountync.gov,39720,Standard,Building,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28300,Steffan,Taube,steffan.taube@brunswickcountync.gov,40275,Standard,Mechanical,1,6/30/2023,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28300,Steffan,Taube,steffan.taube@brunswickcountync.gov,P-37643,Probationary,Electrical,1,4/21/2025,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+28966,William,Budd,william.budd@comcast.net,P-39990,Probationary,Fire,1,3/8/2026,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+29040,Matthew,Gore,matt.gore@brunswickcountync.gov,P-39832,Probationary,Building,1,2/20/2026,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+29040,Matthew,Gore,matt.gore@brunswickcountync.gov,P-39833,Probationary,Mechanical,1,2/20/2026,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+29040,Matthew,Gore,matt.gore@brunswickcountync.gov,P-39834,Probationary,Plumbing,1,2/20/2026,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+29209,Trevor,Belovin,tbelo0323@gmail.com,P-40195,Probationary,Fire,2,3/29/2026,Brunswick Co.,(910) 253-2050,Brunswick,P. O. Box 24975 Courthouse Drive,Bolivia,NC,28422,michael.slate@brunswickcountync.gov
+22428,Damon,White,dwhite@catawbacountync.gov,34285,Standard,Fire,2,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22428,Damon,White,dwhite@catawbacountync.gov,P-34523,Probationary,Fire,3,1/15/2024,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22475,Craig,Taylor,ctaylor@catawbacountync.gov,32114,Standard,Building,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22475,Craig,Taylor,ctaylor@catawbacountync.gov,33144,Standard,Mechanical,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22475,Craig,Taylor,ctaylor@catawbacountync.gov,33418,Standard,Plumbing,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22475,Craig,Taylor,ctaylor@catawbacountync.gov,34505,Standard,Electrical,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22968,Ciejae,Abee,cabee@catawbacountync.gov,34238,Standard,Building,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22968,Ciejae,Abee,cabee@catawbacountync.gov,35714,Standard,Electrical,2,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22968,Ciejae,Abee,cabee@catawbacountync.gov,37362,Standard,Plumbing,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22968,Ciejae,Abee,cabee@catawbacountync.gov,38623,Standard,Fire,2,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+22968,Ciejae,Abee,cabee@catawbacountync.gov,39715,Standard,Mechanical,3,6/30/2023,Catawba Co.,(828) 464-7880,Catawba,P. O. Box 38925 Government Drive,Newton,NC,28658,
+8039,Bruce,Roseman,broseman@catawbacountync.gov,12375,Standard,Fire,2,6/30/2023,Catawba Co. Fire Marshal,(828) 465-8237,Catawba,P. O. Box 389,Newton,NC,28658,jlowrance@catawbacountync.gov
+3760,James,Pruitt,dpruitt@catawbacountync.gov,4637,Standard,Fire,3,6/30/2023,Catawba Co. Fire Marshal,(828) 465-8237,Catawba,P. O. Box 389,Newton,NC,28658,jlowrance@catawbacountync.gov
+22478,Kevin,Head,khead@catawbacountync.gov,32731,Standard,Fire,3,6/30/2023,Catawba Co. Fire Marshal,(828) 465-8237,Catawba,P. O. Box 389,Newton,NC,28658,jlowrance@catawbacountync.gov
+18582,Jennifer,Lowrance,jlowrance@CatawbaCountyNC.gov,26913,Standard,Fire,3,6/30/2023,Catawba Co. Fire Marshal,(828) 465-8237,Catawba,P. O. Box 389,Newton,NC,28658,jlowrance@catawbacountync.gov
+14181,William,Scott,wtscott1916@gmail.com,39545,Standard,Fire,3,6/30/2023,Catawba Co. Fire Marshal,(828) 465-8237,Catawba,P. O. Box 389,Newton,NC,28658,jlowrance@catawbacountync.gov
+6828,Kevin,Little,klittle@cityofclaremont.org,20360,Standard,Fire,1,6/30/2023,Claremont,(828) 459-9296,Catawba,2850 Fire House Lane,Claremont,NC,28610,
+25250,Darrell,Hamby,dhamby3@gmail.com,P-37581,Probationary,Fire,1,4/14/2025,Claremont,(828) 459-9296,Catawba,2850 Fire House Lane,Claremont,NC,28610,
+10084,Jackie,Lail,jackie.lail@conovernc.gov,39367,Standard,Fire,3,6/30/2023,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+10949,Lewis,Chapman,eddie.chapman@conovernc.gov,16432,Standard,Fire,1,6/30/2023,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+10949,Lewis,Chapman,eddie.chapman@conovernc.gov,P-36041,Probationary,Fire,2,9/21/2024,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+16791,Tabitha,Patton,tj.patton@conovernc.gov,21628,Standard,Fire,3,6/30/2023,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+18364,Christopher,Hicks,chris.hicks@conovernc.gov,21901,Standard,Fire,1,6/30/2023,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+25242,Christopher,Boston,chris.boston@conovernc.gov,39079,Standard,Fire,1,6/30/2023,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+25242,Christopher,Boston,chris.boston@conovernc.gov,P-40278,Probationary,Fire,2,4/9/2026,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+29347,Tanner,Patton,tmpatton20@gmail.com,P-40277,Probationary,Fire,1,4/9/2026,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+5793,James,Hinson,mark.hinson@conovernc.gov,15797,Standard,Fire,1,6/30/2023,Conover,(828) 464-1295,Catawba,P.O. Box 5491225 Conover Blvd East,Conover,NC,28613,mark.hinson@conovernc.gov
+26141,Alma,Solis,asolis@hickorync.gov,38813,Standard,Fire,1,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+6904,Teresa,Byers,tbyers@hickorync.gov,4853,Standard,Fire,1,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+5968,Chad,Shull,cshull@hickorync.gov,19769,Standard,Fire,3,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+16333,Mary,Lowman,mlowman@hickorync.gov,20018,Standard,Fire,1,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+21173,Derek,Brittain,dbrittain@hickorync.gov,32701,Standard,Fire,3,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+19799,Stephen,Craig,stephen12775@gmail.com,27222,Standard,Fire,3,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+26590,Kasi,Browning,kasibrowning@gmail.com,P-34704,Probationary,Fire,2,2/17/2024,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+19317,Thomas,Raper,traper@hickorync.gov,27226,Standard,Fire,3,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+18549,Chad,Houston,chouston64@gmail.com,26637,Standard,Fire,3,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+18416,David,Leonetti,dleonetti@hickorync.gov,21722,Standard,Building,1,6/30/2023,Hickory,(828) 323-7422,Catawba,P. O. Box 398 (Planning)76 North Center Street,Hickory,NC,28603,hhedrick@hickorync.gov
+17187,Matthew,Hutchinson,mhutchinson@hickorync.gov,20571,Standard,Fire,1,6/30/2023,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+26592,Lucas,Carter,lucas.carternc@gmail.com,P-34915,Probationary,Fire,2,3/17/2024,Hickory,(828) 323-7522,Catawba,"19 2nd Street Drive, NE",Hickory,NC,28601,traper@hickorync.gov
+11375,Elaine,Towner,Elaine.Towner@durhamnc.gov,14971,Standard,Fire,1,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+1173,Christina,Bowers,c.maggie.b@gmail.com,30361,Standard,Plumbing,3,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+1174,Dawn,White,Dawn.White@durhamnc.gov,15698,Standard,Fire,1,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+13053,Danial,Cremeans,danial.cremeans@durhamnc.gov,13250,Standard,Fire,1,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+13963,Alonzo,Haley,alonzo.haley@durhamnc.gov,14732,Standard,Fire,1,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+14564,David,Wrenn,brent.wrenn@durhamnc.gov,25642,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+15391,Nissa,Pauley,Nissa.Pauley@durhamnc.gov,20412,Standard,Plumbing,3,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+1703,Christopher,Iannuzzi,christopher.iannuzzi@durhamnc.gov,14834,Standard,Fire,1,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+17137,Brandon,Link,brandon.link125@yahoo.com,31270,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+17517,Terry,Sparrow,tsparrow@Bellsouth.net,21511,Standard,Plumbing,3,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+17517,Terry,Sparrow,tsparrow@Bellsouth.net,37990,Standard,Fire,1,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+17670,Martin,Hicks,Hicksram27@gmail.com,30650,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+18788,Wayne,Seaman,wayne.seaman@durhamnc.gov,29336,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+20289,Antoine,Burton,antoine.burton@durhamnc.gov,P-36599,Probationary,Fire,1,11/19/2024,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+20377,James,Holder ,james.holder@durhamnc.gov,P-38151,Probationary,Fire,1,7/6/2025,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+20394,Christopher,Wilcox,chrswilcox@yahoo.com,29961,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+20660,Gordon,Pickett,tony.pickett@durhamnc.gov,32343,Standard,Plumbing,3,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+20804,Steven,Eldredge,steven.eldredge@durhamnc.gov,P-36099,Probationary,Fire,2,9/30/2024,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+21240,Darius,Ricks,dariusricks26@hotmail.com,32624,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+21286,Phillip,Edwards,bot472a@gmail.com,P-35726,Probationary,Fire,2,4/11/2025,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+21824,Michael,Kromer,kromemd@hotmail.com,31936,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+25230,Lonnie,Boone,bluedriver1@gmail.com,P-33870,Probationary,Plumbing,1,8/7/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+25593,Michelle,Hahn,michelle.hahn@durhamnc.gov,35914,Standard,Plumbing,3,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+25593,Michelle,Hahn,michelle.hahn@durhamnc.gov,P-40283,Probationary,Fire,1,4/10/2026,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+27351,Thomas,Stern,thomas.stern@durhamnc.gov,37595,Standard,Plumbing,3,6/30/2023,Durham,(919) 560-4194,Durham,101 City Hall PlazaDept. of Water Mgmt - Cross Connection,Durham,NC,27701,Dana.Inebnit@durhamnc.gov
+27523,Curtis,Ponton,Curtis.Ponton@durhamnc.gov,P-36097,Probationary,Fire,2,9/30/2024,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+28517,Daniel ,Burton ,daniel.burton@durhamnc.gov,P-38209,Probationary,Fire,1,7/12/2025,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+28880,Christopher,Holder,christopher.holder@durhamnc.gov,P-40046,Probationary,Fire,2,3/14/2026,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+2978,Joel,Gullie,jgullie314@gmail.com,24218,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+3263,Kevin,Easter,kevin.easter@durhamnc.gov,11664,Standard,Building,1,6/30/2023,Durham,(919) 560-4570,Durham,101 City Hall Plaza (Comm. Dev),Durham,NC,27701,
+5041,Marty,Pearce,Marty.Pearce@durhamnc.gov,16156,Standard,Fire,1,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,
+6050,Jennifer,Fletcher,Ashley.fletcher@durhamnc.gov,25807,Standard,Fire,3,6/30/2023,Durham,(919) 560-4233,Durham,2008 East Club Blvd.,Durham,NC,27704,

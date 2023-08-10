@@ -1,0 +1,33 @@
+<%- include('./partials/header.ejs')%>
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="content-section container">
+            <h3>Got a question or feedback?</h3>
+            <form class="contact-form" onsubmit="return false;">
+                <div class='form-row'>
+                    <label for='name'>Name:</label>
+                    <input id='name' name='name' type='text' placeholder="name" required>
+                </div>
+                <div class='form-row'>
+                    <label for='email'>Email:</label>
+                    <input id='email' name='email' type='text' placeholder="eg. name@gmail.com" required>
+                </div>
+                <div class='form-row'>
+                    <label for='message'>Message:</label>
+                    <textarea rows="5" id="message" name="message" class="fixed-width" placeholder="description"
+                        required></textarea>
+                </div>
+
+                <div class="form-buttons">
+                    <div class="form-btn">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <h3>Or call us at: +1-888-883-0038</h3>
+        </section>
+    </main><!-- main content-->
+    <%- include('./partials/footer.ejs')%>

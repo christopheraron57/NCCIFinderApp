@@ -1,0 +1,25 @@
+<%- include('../partials/header.ejs')%>
+    <style>
+        * {
+            text-align: center;
+        }
+    </style>
+    <main>
+    <h1>Reset Password</h1><br><br>
+        <form class="reset-form" action = '/codeInspectors/reset' method = 'POST'>
+            <div class='form'>
+                <label for='username'>Username: </label>
+                <input for='username' name='username' type='user'>
+                <br><br>
+                <label for='password'>New Password: </label>
+                <input id='password' name='password' type='password' minlength="8" maxlength="64" required><br><br>
+                <label for='confirmpassword'> Re-enter Password: </label>
+                <input id=confirmpassword' name='confirmpassord' type='password' minlength="8" maxlength="64" required>
+                <br><br>
+            </div>
+            <button class="btn btn-primary">Change Password</button>
+        </form>
+    </main>
+<%- include('../partials/footer.ejs')%>
+
+

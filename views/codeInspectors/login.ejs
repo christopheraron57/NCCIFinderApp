@@ -1,0 +1,23 @@
+<%- include('../partials/header.ejs')%>
+
+    <section class="content-section container">
+        <h2>Log In</h2>
+    <form class="login-form" action = '/codeInspectors/login' method = 'POST'>
+        <div class='form-row'>
+            <label for='email'>Email: </label>
+            <input id='email' name='email' type='text' placeholder="eg. name@gmail.com" required>
+        </div>
+        <div class='form-row'>
+            <label for='password'>Password: </label>
+            <input id='password' name='password' type='password' minlength="8" maxlength="64" required>
+        </div> 
+        <div class="form-buttons">
+            <div class="form-btn">
+                <button class="btn btn-primary">LOGIN</button>
+            </div>
+        </div>     
+    </form>
+</section>
+    <%- include('../partials/footer.ejs')%>
+
+

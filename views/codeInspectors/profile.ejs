@@ -1,0 +1,35 @@
+
+<%- include('../partials/header.ejs')%>
+<div>
+    <main>
+    <section class="content-section container">
+    <h2>Welcome,<%=codeInspectorPerson.First_Name%> <%=codeInspectorPerson.Last_Name%></h2>
+  
+    <div class="form-buttons">
+        <div class="form-btn">
+            <button class="buttons"><span class="label-button">Update Status</span></button>
+            
+        </div>
+
+    </div>
+    
+
+
+</section>
+
+<section class="content-section container">
+    <div>
+        <h4>Upcoming jobs</h4>
+    </div>
+    <div>
+        <form class="login-form" action = '/codeInspectors' method = 'get'></form>
+        <div class='form-row'>
+            <hr>06/04/23||John doe||Building<hr>   
+        </div>
+    </form>
+    </div>
+    
+</section>
+</main>
+</div>
+    <%- include('../partials/footer.ejs')%>
